@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header,
+.hero{
+    display:flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 20px 200px;
+}
+.header h2{
+ font-size:24px;
+ color: #f9faf8;
+ font-weight: 900;
+}
+ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    width: 300px;
+    gap: 40px;
+}
+ul li a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
