@@ -45,8 +45,11 @@ ul{
 .hero *{
     margin-bottom: 10px;
 }
+.call-to-action,
 .hero button{
     background-color: #3882f6;
+}
+.hero button{
     padding: 10px 20px;
     font-size:12px;
     border: none;
@@ -114,4 +117,20 @@ h2{
     display: block;
     font-size: 26px;
     text-align: right;
+}
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 100px 300px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    color:#E5E7EB;
+}
+.call-to-action button{
+    color:#E5E7EB;
+    background:none;
+    border: #E5E7EB solid 1px;
+    padding: 5px 20px;
+    border-radius: 5px;
 }
