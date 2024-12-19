@@ -75,8 +75,7 @@ ul li a,
     background-color: #e5e7eb;
     margin-left: 100px;
 }
-.square{
-    border: solid 2px #3882f6;
+.information-section img{
     border-radius: 10px;
     width: 130px;
     height: 130px;
@@ -109,7 +108,7 @@ h2{
     padding: 150px 400px;
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 100;
     color: #1f2937;
 }
 .quote-author{
@@ -133,4 +132,12 @@ h2{
     border: #E5E7EB solid 1px;
     padding: 5px 20px;
     border-radius: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px 0;
 }
